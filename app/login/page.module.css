@@ -1,0 +1,7 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    
+  }
