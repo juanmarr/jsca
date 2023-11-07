@@ -34,7 +34,7 @@ const login = () => {
 
 
   const handleSubmit = event =>{
-    e.preventDefault();
+    event.preventDefault();
     const form = event.currentTarget;
     const formElements = form.elements;
     
