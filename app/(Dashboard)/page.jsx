@@ -102,13 +102,22 @@ export default function Home(props) {
             ></input>
           </div>
 
-          <div className="mb-4">
+
+          <div>
+          <label htmlFor="" className="form-label ">
+              Details
+          </label>
+              <textarea name="details" id="" cols="30" rows="10">
+              </textarea>
+          </div>
+
+          {/* <div className="mb-4">
             <label htmlFor="" className="form-label ">
               Details
             </label>
             <Edit details={setDetails} />
             <input type="hidden" value={details} name="details" />
-          </div>
+          </div> */}
 
           <div className="d-grid vstack gap-2">
             <button type="submit" className="btn btn-primary mb-4">
