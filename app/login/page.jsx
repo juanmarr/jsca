@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { useSearchParams } from 'next/navigation'
 
-const login = () => {
+export default function Page() {
 
   const router = useRouter();
   console.log(router);
@@ -94,5 +94,3 @@ const login = () => {
     </div>
   )
 }
-
-export default login
